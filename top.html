@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <style>
+            *    {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    a
+    {
+        position: relative;
+        display: inline-block;
+        padding:25px 15px;
+        margin:20px 10px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.9s;
+        /* letter-spacing: 2px; */
+        overflow: hidden;
+        margin-right:20px;
+    }
+    a:hover
+    {
+        background: white;
+        color: black;
+              box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+        -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+          }
+    a:nth-child(1)
+    {
+        filter:hue-rotate(270deg);
+    }
+    a:nth-child(2)
+    {
+        filter:hue-rotate(110deg);
+    }
+    a:nth-child(3)
+    {
+        filter:hue-rotate(200deg);
+    }
+    a:nth-child(4)
+    {
+        filter:hue-rotate(270deg);
+    }
+    a:nth-child(5)
+    {
+        filter:hue-rotate(110deg);
+    }
+    a:nth-child(6)
+    {
+        filter:hue-rotate(186deg);
+    }
+    a span
+    {
+        position: absolute;
+        display:block;
+    }
+    a span:nth-child(1)
+    {
+        top:0;
+        left:0;
+        width:100%;
+        height:2px;
+        background: linear-gradient(90deg, transparent, white);
+      
+    }
+   
+    a span:nth-child(2)
+    {
+        top:-100%;
+        right:0;
+        width:2px;
+        height:100%;
+         background: linear-gradient(180deg, transparent, white);
+       
+    }
+  
+    a span:nth-child(3)
+    {
+        bottom:0;
+        right:0;
+        width:100%;
+        height:2px;
+        background: linear-gradient(270deg, transparent, white);
+    }
+    a span:nth-child(4)
+    {
+        bottom:-100%;
+        left:0;
+        width:2px;
+        height:100%;
+        background: linear-gradient(360deg, transparent, white);
+    }
+    
+    
+    </style>
+    </head>
+    <body bgcolor="#117864">
+        <img src="https://www.thespruce.com/thmb/P4hBQtEPZVrrWPdbtXy7-wv9fiE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1161177015-f1de4ba58a6c4f50969d9119d80405a6.jpg" alt="Design Logo" style="background-color:white; 
+          padding:10px;
+          border-radius: 10px; 
+          margin-top: 5px;
+          margin-bottom: 5px; 
+          height:100px; 
+          border:3px solid lightgrey">
+
+        <a href="home.html" target="bottom">
+            HOME<span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <a href="ideas.html" target="bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            DESIGN IDEAS
+        </a>
+        <a href="gallery.html" target="bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            GALLERY
+        </a>
+        <a href="login.html" target="bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            REGISTER
+        </a>
+        <a href="contact.html" target="bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            CONTACT
+        </a>
+    </body>
+</html>
