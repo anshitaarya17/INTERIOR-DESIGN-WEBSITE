@@ -1,5 +1,5 @@
 # INTERIOR-DESIGN-WEBSITE
-HTML + CSS
+HTML + CSS + JS
 
 Virtual Interior Design is the modern way of working 
 with a professional interior designer.
