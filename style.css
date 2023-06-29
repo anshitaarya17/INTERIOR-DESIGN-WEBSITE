@@ -1,0 +1,52 @@
+s */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 10px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+nav a:hover {
+	color: yellowgreen;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #FDEDEC;
+	padding: 50px;
+}
+
+.place {
+	flex-basis: 30%;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 10px black;
+	padding: 20px;
+	text-align: center;
+}
+.place img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+.place h3 {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.place p {
+	color: #666;
+	font-size: 16px;
+	line-height: 1.5;
+}
